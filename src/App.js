@@ -3,14 +3,14 @@ import "./styles.css";
 
 export default function App() {
   return (
-    <div>
-      <Pet />
-      <Pet />
-      <Pet />
-    </div>
+    <main>
+      <Animal />
+      <Animal />
+      <Animal />
+    </main>
   );
 }
 
-function Pet() {
+function Animal() {
   return <div>Meow 🐈</div>;
 }
