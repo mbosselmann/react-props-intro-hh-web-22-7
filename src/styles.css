@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 2rem;
+}
+
 body {
   margin: 0;
   font-family: system-ui;
@@ -16,4 +20,8 @@ body {
   display: grid;
   place-items: center;
   gap: 1rem;
+}
+
+button {
+  font-size: inherit;
 }
